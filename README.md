@@ -1,14 +1,18 @@
 ## Overview
-This is the "Quickstart React" example Monday app. 
-<br>It can be used as a board view or dashboard widget, connected to a board and render data from the board using settings.
+The `Productivity Enhancer` app asks the employees to fill a form during their joining with some basic details namely Name, Email, Team, Role along with the time frame during which they find themselves to be most productive. The time frame is currently classified into three categories:
+- Morning (9 AM - 12 PM)
+- Afternoon (12 PM - 3 PM)
+- Evening (3 PM - 6 PM)
 
-<br>This app demonstrates how to use: 
-- [settings](https://github.com/mondaycom/monday-sdk-js#mondaygettype-params--) 
-- [context](https://github.com/mondaycom/monday-sdk-js#mondaygettype-params--) 
-- [API](https://github.com/mondaycom/monday-sdk-js#mondayapiquery-options--)
+This question is followed by a series of checkboxes comprising of one-hour breakdowns during which the given employee prefers to work. [This is expected to be taken in multiple `Time Tracking` formats in the future for more customized options]. It's currently suggested to check a minimum of 5 checkboxes corresponding to 5 dedicated hours of work, but it can easily be altered based on company needs.
+After filling in this information, the employee can submit the form. 
+The HR or the manager is then notified via a custom Email about the employee joining their team and a message is posted inside the `#team`(can be configured) channel of the specified workspace.
 
-<br>You can find more info in our QuickStart guide [here](https://monday.com/developers/apps/quickstart-view/)
-<br /> ![Screenshot](https://dapulse-res.cloudinary.com/image/upload/w_900/v1591485466/remote_mondaycom_static/developers/screenshots/final_view.gif)
+The intuition behind this is to make the working hours of an employee[within set boundaries of the company] transparent to the team so that they would not interrupt their fellow teammate during their recreation time. Any employee can see the details and the working hours of any other employee of the same company from the dashboard. They can then schedule meetings and interact accordingly[A feature to auto-schedule meetings based on the matching working hours is the next milestone here].
+
+Apart from this, the employees can also gather insight into the productive hours of all the employees via the visualizations option available in the dashboard. Currently, the bar chart and the donut chart is available inside the visualization dialog with an option to download in PNG, JPEG, PDF, SVG format or to print the same.
+
+The HR and the managers can also use this dashboard to gather insights into the working hours of their team members allowing them to take intelligent customized decisions accordingly.
 
 ## Run the project
 
