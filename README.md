@@ -8,9 +8,9 @@ The `Productivity Enhancer` app asks the employees to fill a form during their j
 
 This question is followed by a series of checkboxes comprising of one-hour breakdowns during which the given employee prefers to work. [This is expected to be taken in multiple `Time Tracking` formats in the future for more customized options]. It's currently suggested to check a minimum of 5 checkboxes corresponding to 5 dedicated hours of work, but it can easily be altered based on company needs.
 After filling in this information, the employee can submit the form. 
-The HR or the manager is then notified via a custom Email about the employee joining their team and a message is posted inside the `#team`(can be configured) channel of the specified workspace.
+The HR or the manager is then notified via a custom Email about the employee joining their team and a message is posted inside the `#team` channel of the specified workspace.
 
-The intuition behind this is to make the working hours of an employee[within set boundaries of the company] transparent to the team so that they would not interrupt their fellow teammate during their recreation time. Any employee can see the details and the working hours of any other employee of the same company from the dashboard. They can then schedule meetings and interact accordingly[A feature to auto-schedule meetings based on the matching working hours is the next milestone here].
+The intuition behind this is to make the working hours of an employee[within set boundaries of the company] transparent to the team so that they would not interrupt their fellow teammate during their recreation time. Any employee can see the details and the working hours of any other employee of the same company from the dashboard. They can then schedule meetings and interact accordingly.
 
 Apart from this, the employees can also gather insight into the productive hours of all the employees via the visualizations option available in the dashboard. Currently, the bar chart and the donut chart is available inside the visualization dialog with an option to download in PNG, JPEG, PDF, SVG format or to print the same.
 
