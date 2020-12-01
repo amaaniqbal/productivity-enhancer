@@ -1,5 +1,6 @@
 ## Overview
-![Productivity Enhancer App](https://drive.google.com/file/d/1oegAXvGGFRbMx9VOPXIhlJ7fSsVM2DVY/view?usp=sharing)
+![Productivity Enhancer App](https://i.ibb.co/gTtL2x1/monday5.jpg)
+
 The `Productivity Enhancer` app asks the employees to fill a form during their joining with some basic details namely Name, Email, Team, Role along with the time frame during which they find themselves to be most productive. The time frame is currently classified into three categories:
 - Morning (9 AM - 12 PM)
 - Afternoon (12 PM - 3 PM)
